@@ -10,13 +10,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: aqua;
+    background-color: rgba(0, 255, 255, 0.3);
 }
 
 .cal {
     padding: 20px;
     border-radius: 10px;
     background-color: #3a4452;
+
 }
 
 .cal form input {
@@ -37,6 +38,8 @@
     display: flex;
     justify-content: flex-end;
     margin: 20px 0;
+    background-color: #555f6e;
+    border-radius: 5px;
 }
 
 .cal form .display input {
@@ -48,4 +51,8 @@
 
 #equal {
     width: 145px;
+}
+
+form input.bttn {
+    color: rgb(35, 239, 35);
 }
